@@ -15,7 +15,6 @@ def predict(model, text):
         _, predicted = torch.max(output.data, 1)
     return predicted.item()
 
-# 示例
 
 
 if __name__ == "__main__":
